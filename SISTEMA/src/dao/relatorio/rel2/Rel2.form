@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="dao.relatorio.rel2.Rel2">
+  <grid id="27dc6" binding="contentPane" layout-manager="GridLayoutManager" row-count="6" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="5" y="5" width="364" height="244"/>
+    </constraints>
+    <properties>
+      <background color="-12828863"/>
+      <enabled value="true"/>
+      <font name="Segoe UI" size="20" style="1"/>
+      <foreground color="-5787468"/>
+    </properties>
+    <border type="none">
+      <font/>
+      <title-color color="-2104859"/>
+    </border>
+    <children>
+      <component id="58b15" class="javax.swing.JTextField" binding="txtNome">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="300" height="30"/>
+            <preferred-size width="150" height="1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14210517"/>
+          <focusable value="true"/>
+          <font size="18"/>
+          <foreground color="-592138"/>
+          <text value=""/>
+          <toolTipText value=""/>
+        </properties>
+      </component>
+      <vspacer id="a9e1b">
+        <constraints>
+          <grid row="1" column="4" row-span="4" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="20" height="-1"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <component id="49a1f" class="javax.swing.JLabel" binding="title">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="300" height="90"/>
+            <preferred-size width="200" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Segoe UI" size="18" style="1"/>
+          <foreground color="-592138"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Digite o primeiro nome do cliente:"/>
+        </properties>
+      </component>
+      <component id="47a5" class="javax.swing.JButton" binding="btnVoltar">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="145" height="50"/>
+            <preferred-size width="10" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13487050"/>
+          <borderPainted value="false"/>
+          <font size="18"/>
+          <foreground color="-592138"/>
+          <hideActionText value="false"/>
+          <text value="Voltar"/>
+        </properties>
+      </component>
+      <vspacer id="c3d4e">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="-1"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <component id="c3c52" class="javax.swing.JButton" binding="btnCadastra">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="145" height="50"/>
+            <preferred-size width="10" height="10"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13487050"/>
+          <borderPainted value="false"/>
+          <font size="18"/>
+          <foreground color="-592138"/>
+          <hideActionText value="false"/>
+          <text value="Consultar"/>
+        </properties>
+      </component>
+      <hspacer id="7a818">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="3" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="10"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <vspacer id="6b084">
+        <constraints>
+          <grid row="1" column="0" row-span="4" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <minimum-size width="20" height="-1"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <hspacer id="5a424">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="3" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="10"/>
+          </grid>
+        </constraints>
+      </hspacer>
+    </children>
+  </grid>
+</form>
